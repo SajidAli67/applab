@@ -1,0 +1,193 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+p {
+  color: #616368;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: #242f51;
+  font-size: 2.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: #242f51;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+section {
+  margin-top: 6.25rem;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #2500f9;
+  padding: 0.5rem 1.5rem;
+  margin: 3.1rem 1.5rem;
+  border-radius: 40px;
+  border: none;
+}
+.btn-see_all {
+  color: #fff;
+  background-color: #2500f9;
+  padding: 0.5rem 1.5rem;
+  margin: 0rem 1.5rem;
+  border-radius: 40px;
+  border: none;
+}
+.text-danger {
+  color: #f55767 !important;
+}
+
+header nav {
+  height: 9rem;
+  font-size: 1rem;
+  position: fixed !important;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+}
+header nav .nav-link {
+  color: #242f51 !important;
+  padding-left: 1.5rem !important;
+}
+header .nav-active {
+  color: #2500f9 !important;
+  transition: all 0.5s !important;
+}
+header .nav-link:hover {
+  color: #2500f9 !important;
+  transition: all 0.5s !important;
+}
+header .sticky {
+  height: 5rem;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  transition: all 0.5s ease-in;
+}
+header nav .bg-primary {
+  color: #fff !important;
+  background-color: #2500f9 !important ;
+  padding: 0.5rem 1.5rem !important;
+  margin-left: 1.5rem;
+  border-radius: 40px;
+}
+header .banner {
+  background: url(../img/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+}
+header .banner h1 {
+  font-size: 3rem;
+  color: #242f51;
+  padding: 10rem 3rem 3.1rem 0px;
+  font-weight: bold;
+}
+.header-link {
+  color: #2500f9;
+  text-decoration: none;
+}
+.header-link:hover {
+  text-decoration: none;
+}
+.owl-container {
+  width: 57%;
+  margin: 2rem auto;
+  overflow-x: hidden;
+}
+.card {
+  border: none;
+}
+.p-card-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #242f51;
+}
+.card-header {
+  border: none;
+  background-image: linear-gradient(to bottom, #fff, #f4f7f9);
+}
+.card-header .card-p {
+  color: #242f51;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.price .card {
+  width: 60%;
+  height: 32rem;
+  border: 1px solid gainsboro;
+  text-align: center;
+  color: #999ca5;
+  transition: all 0.5s ease-in;
+}
+.price .card:hover {
+  transform: scale(1.05);
+  border: none;
+  box-shadow: rgb(99 99 99 / 20%) 4px 4px 8px 4px;
+  transition: all 0.5s ease-in;
+}
+.card-body {
+  margin-top: 1rem;
+}
+.card-body p {
+  margin-top: 1rem;
+  color: #999ca5;
+}
+.price-1 {
+  float: right;
+}
+.faq .card {
+  background: #f5f7fa;
+  margin-top: 0.5rem;
+}
+.faq .card-header {
+  background: #f5f7fa;
+  border: none;
+}
+.faq .card-header a {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #242f51;
+  padding-left: 2rem;
+}
+.faq .card-body {
+  color: #616368;
+  padding: 3rem;
+}
+.top-margin {
+  margin-top: 6.25rem;
+}
+footer {
+  background-color: #09142e;
+  padding: 5rem 25rem;
+  text-align: center;
+}
+footer .nav-link {
+  color: #fff;
+}
+.footer-icon {
+  width: 100%;
+  text-align: center;
+}
+.footer-icon ul {
+  list-style: none;
+  margin-left: 8rem;
+}
+.footer-icon li {
+  float: left;
+  padding: 1rem;
+}
+.footer-icon li a svg {
+  fill: #616368;
+}
+.footer-icon li a svg:hover {
+  fill: #fff;
+}
